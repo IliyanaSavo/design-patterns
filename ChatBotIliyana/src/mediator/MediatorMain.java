@@ -10,7 +10,10 @@ public class MediatorMain {
 		User user2 = new ChatUser(chat, "Tanya");
 		User user3 = new ChatUser(chat, "Valeriya");
 		
-		user1.send("What's upp?");
+		user1.send("cat");
+		user2.send("addBot");
+		user1.send("cat");
+		user3.send("cat");
 
 	}
 
